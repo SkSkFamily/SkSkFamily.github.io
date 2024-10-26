@@ -1,0 +1,100 @@
+body{
+margin: 50px; /* remove default margin and padding applied by other browsers */
+padding: 0px; 
+background-color: white;
+ 
+}
+header{
+ display: flex;
+ justify-content: space-between;
+ background-color: white;
+ background-image: url(assets/Fall.jpg);
+ background-size: 1200px;
+ background-position: right;
+ background-repeat: no-repeat;
+ padding: 20px;
+ margin: 0 auto;
+ flex-wrap: wrap;
+} 
+header img{
+ border-radius: 20px;
+ box-shadow: 3px,3px,10px rbga(0, 0, 0.3);
+ max-width: 100%;
+ height: auto;
+ object-fit: cover;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+
+}
+.intro{
+    max-width: 500px;/* limits the width for better readility */
+    display: flex;
+    justify-content:space-around;
+    /*text-align: left; (align text to the left, right, center)  */
+}
+/* Styling for entire Main Element*/
+main{
+    display: flex;/* Tells Main it is a flex container */
+    flex-direction: column; /* Stacks child elements (section) */
+    align-items: left; /* Alight child elements horizonally in the center */
+    padding: 30px; /* adds padding AROUND the main content for better spacing */
+}
+/* Styling for the Section Element */
+section{
+    background-color: gainsboro;/* background color of each section */
+    border-radius: 8px; /* adds rounded corners to section */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);/*  box shadow makingit "float" */
+    padding: 20px; /* adds space INSIDE each section "card" */
+    margin-bottom: 20px;/* adds space at the BUTTOM of each "card" */
+    width: 100%;/* makes the section take upthe full width of the MAIN container */
+    max-width: 1000px; /* limits the width to a MAX a 800px */
+    font-style: italic;
+}
+li{
+    margin-bottom: 10px;/* add spaces between EACH list item */
+    font-size: large;
+}
+img{ 
+    border-radius: 15px;
+    margin:0;/* margin-left: 400px; */   
+}
+h1{
+    font-style: italic;
+    color: white;
+}
+p{ 
+    font-size: large;
+}
+
+footer{
+    /* below copied from main */
+    display: flex;/* Tells footer it is a flex container */ 
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    box-shadow: 0px 4px 8px #0000004d;/*box shadow makingit "float" */
+    height: 80px;
+    color: black;
+    font-size: 40px; 
+     /* padding: 30px;adds padding AROUND the main content for better spacing */
+    /* below brought up from .leftfooter */
+    border-radius: 8px; /* adds rounded corners to section */
+   /*  width: 100%; makes the section take upthe full width of the MAIN container */
+   /*  max-width: 1000px; limits the width to a MAX a 1000px */
+   font-style: italic;
+}
+
+A{  padding:20px;
+    text-decoration: none;
+    color: black;
+}
+a{  color: black;
+    font-size: x-large;
+}
+
+
+
+
